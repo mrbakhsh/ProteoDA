@@ -1,0 +1,20 @@
+  #' Test data 1 for AP-MS scoring
+  #' @description Data input including summed spectral counts
+  #' \itemize{
+  #'   \item Experiment ID = sample identifier per AP-MS run
+  #'   \item Replicate = biological replicates
+  #'   \item Bait = a unique identifier (i.e., UniProt accession code) per Bait
+  #'   \item Prey = a unique identifier (i.e., UniProt accession code) per Prey
+  #'   \item counts = Summed spectral counts per proteins
+  #'   \item Length = Prey length
+  #' }
+  #' @source \url{https://uregina.ca/~babu200m/index.html}
+  #' @name Testdata_1
+  #' @usage data(Testdata_1)
+  #' @docType data
+  #' @author Matineh Rahmatbakhsh, \email{matinerb.94@gmail.com}
+  #' @keywords datasets
+  NULL
+
+
+

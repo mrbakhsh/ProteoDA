@@ -1,0 +1,33 @@
+Package: ProteoDA
+Type: Package
+Title: ProteoDA analysis
+Version: 0.1.0
+Authors@R: c(
+    person("Matineh", "Rahmatbakhsh", ,"matinerb.94@gmail.com",c("aut","trl","cre")),
+    person("Mohan", "Babu", ,"mohan.babu@uregina.ca", c("led")))
+Maintainer: The package maintainer <yourself@somewhere.net>
+Description: More about what it does (maybe more than one line)
+    Use four spaces when indenting paragraphs within the Description.
+Depends: 
+    R (>= 4.1)
+Imports: 
+    dplyr,
+    magrittr,
+    tibble,
+    tidyr,
+    plyr,
+    proxy,
+    reshape2,
+    ggplot2,
+    pROC,
+    PRROC
+License: MIT + file LICENSE
+Encoding: UTF-8
+URL: https://github.com/mrbakhsh/ProteoDA
+BugReports: https://github.com/mrbakhsh/HPiP/ProteoDA
+VignetteBuilder: knitr
+Suggests:
+  randomForest,
+  knitr,
+  fmsb
+RoxygenNote: 7.1.2
